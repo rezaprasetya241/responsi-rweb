@@ -1,0 +1,80 @@
+.homePage{
+    margin: 0;
+    padding: 0;
+}
+.homePage_main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../../assets/orang.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.homePage_main div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.homePage_main div input{
+    border-radius: 20px;
+    border: none;
+    padding: 8px 12px;
+    width: 600px;
+    text-align: center;
+}
+.homePage_main div button{
+    border: none;
+    border-radius: 20px;
+    height: 100%;
+    padding: 8px 14px;
+    color: black;
+}
+.homePage_main div button:hover{
+    background: #FFAB1F;
+    color: white;
+}
+
+.title{
+    text-decoration: underline #FFAB1F;
+    text-underline-offset: .5rem;
+}
+
+
+
+.diplay_listUkm{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.listUkm{
+    border: 3px solid #FFAB1F;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+.listUkm a{
+    color: #15305B;
+    text-decoration: none;
+}
+.listUkm:hover{
+    background: #FFAB1F;
+}
+
+@media (max-width: 400px) {
+    .diplay_listUkm{
+        grid-template-columns: 100px;
+    }
+    .homePage_main div input{
+        width: 200px;
+    }
+}

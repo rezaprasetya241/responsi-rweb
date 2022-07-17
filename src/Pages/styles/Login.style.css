@@ -1,0 +1,52 @@
+.loginPage__main{
+    background: #FCFAF7;
+    height: 100vh;
+}
+.loginPage__main_img{
+    background: tan;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginPage__main_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.loginPage__main_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage__main_form_login form button{
+    width: 100%;
+    background: #F1F1F0;
+    color: #34364A;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px 0px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+form{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+.loginPage__main_form_login form button:hover{
+    background: #084A79;
+    color: white;
+}
+
+.loginPage__btnRegister{
+    color: #FFFFFF !important; 
+    background: #FFAB1F !important;
+    padding: 8px 12px;
+}
+.loginPage__btnRegister:hover{
+    background: #084A79 !important;
+}

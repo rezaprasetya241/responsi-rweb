@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-beeen;
+    border: none;
+}
+.card div{
+    margin: 10px 20px;
+}
+.card div img{
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+.cardText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardText div button{
+    border: 3px solid #FFAB1F;
+    border-radius: 5px;
+    background: white;
+    padding: 6px 12px;
+}
+.cardText div button:hover{
+    background: #FFAB1F;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .card{
+        flex-direction: column;
+    }
+}
